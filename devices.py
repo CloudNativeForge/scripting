@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load Excel file
-excel_file_path = 'C:\Users\JeffreyOs\Downloads\277 Front Desktops.xlsx'
+excel_file_path = 'C:\directory-path\file.xlsx'
 df_excel = pd.read_excel(excel_file_path)
 
 # Preview the data
