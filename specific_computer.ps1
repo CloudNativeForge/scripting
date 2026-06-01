@@ -1,5 +1,5 @@
 # Output CSV path
-$outputPath = "C:\computer_info.csv"
+$outputPath = "path to save the file"
 
 # Get current logon user
 $currentUser = (Get-WmiObject -Class Win32_ComputerSystem).UserName
